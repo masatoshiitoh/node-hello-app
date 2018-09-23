@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t masatoshiitoh/node-hello-app .
+docker build -t gcr.io/${PROJECT_ID}/node-hello-app:v2 .
