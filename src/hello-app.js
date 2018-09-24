@@ -1,4 +1,5 @@
-var http = require('http');
+let http = require('http');
+
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
     res.end('<html><body>Hello Application! v2</body></html>');
